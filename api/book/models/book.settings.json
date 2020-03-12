@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "books",
+  "info": {
+    "name": "book"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "id_author": {
+      "model": "author",
+      "via": "book"
+    },
+    "id_category": {
+      "model": "category",
+      "via": "book"
+    }
+  }
+}
