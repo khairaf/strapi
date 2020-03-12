@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "components_corporate_document_available_documents",
+  "info": {
+    "name": "available_document",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}

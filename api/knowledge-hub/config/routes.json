@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/knowledge-hubs",
+      "handler": "knowledge-hub.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/knowledge-hubs/count",
+      "handler": "knowledge-hub.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/knowledge-hubs/:id",
+      "handler": "knowledge-hub.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/knowledge-hubs",
+      "handler": "knowledge-hub.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/knowledge-hubs/:id",
+      "handler": "knowledge-hub.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/knowledge-hubs/:id",
+      "handler": "knowledge-hub.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

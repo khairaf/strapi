@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "footer_copyrights",
+  "info": {
+    "name": "footer_copyright"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "copyright": {
+      "type": "text"
+    }
+  }
+}

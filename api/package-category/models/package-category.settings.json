@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "package_categories",
+  "info": {
+    "name": "package_category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "code": {
+      "type": "string"
+    },
+    "sub_categories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "package.sub-category"
+    }
+  }
+}

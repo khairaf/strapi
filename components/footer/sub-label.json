@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "components_footer_sub_labels",
+  "info": {
+    "name": "sub_label",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

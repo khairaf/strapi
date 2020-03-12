@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "knowledge_hub_categories",
+  "info": {
+    "name": "knowledge_hub_category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "url": {
+      "type": "string"
+    },
+    "knowledge_hubs": {
+      "collection": "knowledge-hub",
+      "via": "knowledge_hub_categories",
+      "dominant": true
+    }
+  }
+}

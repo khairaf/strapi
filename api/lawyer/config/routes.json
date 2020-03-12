@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/lawyers",
+      "handler": "lawyer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lawyers/count",
+      "handler": "lawyer.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/lawyers/:id",
+      "handler": "lawyer.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/lawyers",
+      "handler": "lawyer.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/lawyers/:id",
+      "handler": "lawyer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/lawyers/:id",
+      "handler": "lawyer.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

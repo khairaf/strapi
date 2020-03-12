@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "corporate_document_categories",
+  "info": {
+    "name": "corporate_document_category"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "available_document": {
+      "type": "component",
+      "repeatable": true,
+      "component": "corporate-document.available-document"
+    }
+  }
+}

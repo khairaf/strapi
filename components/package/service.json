@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_package_services",
+  "info": {
+    "name": "service",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/knowledge-hub-categories",
+      "handler": "knowledge-hub-category.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/knowledge-hub-categories/count",
+      "handler": "knowledge-hub-category.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/knowledge-hub-categories/:id",
+      "handler": "knowledge-hub-category.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/knowledge-hub-categories",
+      "handler": "knowledge-hub-category.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/knowledge-hub-categories/:id",
+      "handler": "knowledge-hub-category.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/knowledge-hub-categories/:id",
+      "handler": "knowledge-hub-category.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
