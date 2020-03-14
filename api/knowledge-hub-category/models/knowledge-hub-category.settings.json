@@ -26,8 +26,8 @@
       "type": "string"
     },
     "knowledge_hubs": {
-      "collection": "knowledge-hub",
       "via": "knowledge_hub_categories",
+      "collection": "knowledge-hub",
       "dominant": true
     }
   }

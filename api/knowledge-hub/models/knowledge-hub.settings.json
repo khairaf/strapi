@@ -23,8 +23,11 @@
       "required": false
     },
     "knowledge_hub_categories": {
-      "via": "knowledge_hubs",
-      "collection": "knowledge-hub-category"
+      "collection": "knowledge-hub-category",
+      "via": "knowledge_hubs"
+    },
+    "url": {
+      "type": "string"
     }
   }
 }
