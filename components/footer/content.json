@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "components_footer_contents",
+  "info": {
+    "name": "content",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "sub_label": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.sub-label"
+    }
+  }
+}
